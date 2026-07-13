@@ -11,7 +11,7 @@ if __name__ == '__main__':
     env = {}
     while True:
         try:
-            with open('Code/V0.13/Dasm.asm', 'r') as f:
+            with open(r'C:\Users\jacki\PyCharmMiscProject\Code\V0.13\Dasm.asm', 'r') as f:
                 text = f.read()
 
         except EOFError:
