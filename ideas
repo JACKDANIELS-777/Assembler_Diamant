@@ -1,0 +1,2 @@
+# Read memory addresses inline
+rax = *rbx + *rcx + 9
